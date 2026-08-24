@@ -1,0 +1,53 @@
+.notes-panel {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.note-section {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.25rem 1.3rem;
+}
+
+.note-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 3px solid var(--accent);
+}
+
+.note-section ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.45rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.key-terms {
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.key-term {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.7rem 0.8rem;
+  background: rgba(10, 22, 40, 0.03);
+  border-radius: 10px;
+}
+
+.key-term dt {
+  font-weight: 700;
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.key-term dd {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}

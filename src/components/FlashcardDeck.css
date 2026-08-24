@@ -1,0 +1,150 @@
+.deck {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.deck-meta {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.deck-meta p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.deck-status {
+  font-weight: 600;
+  color: var(--ink-soft) !important;
+}
+
+.deck-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(10, 22, 40, 0.08);
+  overflow: hidden;
+}
+
+.deck-progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  transition: width 0.35s ease;
+}
+
+.flashcard {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  perspective: 1200px;
+  width: 100%;
+  min-height: 280px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.flashcard.is-flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border-radius: calc(var(--radius) + 4px);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-soft);
+  padding: 1.5rem 1.6rem;
+  display: grid;
+  align-content: space-between;
+  gap: 1rem;
+}
+
+.flashcard-front {
+  animation: flip-hint 2.8s ease-in-out 1s 1;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+  border-width: 2px;
+}
+
+.face-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.flashcard-face p {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.flip-hint {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.deck-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.btn {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.7rem 1.15rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn.ghost {
+  background: rgba(10, 22, 40, 0.06);
+  color: var(--ink);
+}
+
+.btn.solid {
+  color: white;
+}
+
+.empty-panel {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px dashed rgba(10, 22, 40, 0.18);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.empty-panel h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.empty-panel p {
+  color: var(--muted);
+  max-width: 42ch;
+  line-height: 1.5;
+}

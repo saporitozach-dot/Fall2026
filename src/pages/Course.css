@@ -1,0 +1,99 @@
+.course-page {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.back-link {
+  width: fit-content;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.back-link:hover {
+  color: var(--ink);
+}
+
+.course-hero {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 1.5rem;
+  align-items: end;
+}
+
+.course-kicker {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+  margin-bottom: 0.55rem;
+}
+
+.course-hero h1 {
+  font-size: clamp(2.1rem, 5vw, 3.2rem);
+  margin-bottom: 0.55rem;
+}
+
+.course-desc {
+  color: var(--ink-soft);
+  max-width: 48ch;
+  line-height: 1.5;
+  font-size: 1.05rem;
+}
+
+.course-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.course-stats strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  letter-spacing: -0.03em;
+}
+
+.course-stats span {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tabs button {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+  font-weight: 650;
+  color: var(--ink-soft);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.tabs button.is-active {
+  color: white;
+}
+
+.tab-panel {
+  min-height: 280px;
+}
+
+@media (max-width: 800px) {
+  .course-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .course-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
