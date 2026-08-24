@@ -2,9 +2,11 @@
 
 Personal exam-prep site for I-Core + Business Ethics.
 
+**Live site:** https://saporitozach-dot.github.io/Fall2026/
+
 ## Courses
 
-- I-Core Finance
+- I-Core Finance *(Class 1 TVM live)*
 - I-Core Marketing
 - I-Core Leadership
 - I-Core Operations
@@ -19,6 +21,14 @@ npm install
 npm run dev
 ```
 
+## Deploy
+
+```bash
+npm run deploy
+```
+
+Publishes to GitHub Pages at the live URL above.
+
 ## Content updates
 
-Course content lives in `src/data/courses.ts`. When you send materials, that file (and related study data) is what gets updated.
+Course content lives under `src/data/` (e.g. `finance.ts`). When you send materials, those files are what get updated.
