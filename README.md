@@ -9,7 +9,7 @@ Personal exam-prep site for I-Core + Business Ethics.
 - I-Core Finance *(Class 1 TVM live)*
 - I-Core Marketing
 - I-Core Leadership
-- I-Core Operations
+- I-Core Operations *(Class 1 / Ch. 1 live)*
 - Business Ethics
 
 Each course has **condensed notes**, **flashcards**, and **quizzes**. Content starts empty and gets filled as you upload notes/slides in chat.

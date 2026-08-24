@@ -4,6 +4,11 @@ import {
   financeNotes,
   financeQuizzes,
 } from './finance'
+import {
+  operationsFlashcards,
+  operationsNotes,
+  operationsQuizzes,
+} from './operations'
 
 export type { Flashcard, NoteSection, Quiz, QuizQuestion } from './types'
 
@@ -68,10 +73,10 @@ export const courses: Course[] = [
     description:
       'Process analysis, inventory, quality, supply chains, and making operations efficient.',
     accent: '#0F766E',
-    status: 'awaiting',
-    notes: [],
-    flashcards: [],
-    quizzes: [],
+    status: 'ready',
+    notes: operationsNotes,
+    flashcards: operationsFlashcards,
+    quizzes: operationsQuizzes,
   },
   {
     id: 'ethics',
