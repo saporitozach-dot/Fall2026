@@ -5,6 +5,16 @@ import {
   financeQuizzes,
 } from './finance'
 import {
+  leadershipFlashcards,
+  leadershipNotes,
+  leadershipQuizzes,
+} from './leadership'
+import {
+  marketingFlashcards,
+  marketingNotes,
+  marketingQuizzes,
+} from './marketing'
+import {
   operationsFlashcards,
   operationsNotes,
   operationsQuizzes,
@@ -47,10 +57,10 @@ export const courses: Course[] = [
     description:
       'Segmentation, positioning, the marketing mix, research, and go-to-market strategy.',
     accent: '#3B82F6',
-    status: 'awaiting',
-    notes: [],
-    flashcards: [],
-    quizzes: [],
+    status: 'ready',
+    notes: marketingNotes,
+    flashcards: marketingFlashcards,
+    quizzes: marketingQuizzes,
   },
   {
     id: 'leadership',
@@ -60,10 +70,10 @@ export const courses: Course[] = [
     description:
       'Motivation, organizational behavior, decision-making, and leading through change.',
     accent: '#F59E0B',
-    status: 'awaiting',
-    notes: [],
-    flashcards: [],
-    quizzes: [],
+    status: 'ready',
+    notes: leadershipNotes,
+    flashcards: leadershipFlashcards,
+    quizzes: leadershipQuizzes,
   },
   {
     id: 'operations',
