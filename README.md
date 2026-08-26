@@ -6,7 +6,7 @@ Personal exam-prep site for I-Core + Business Ethics.
 
 ## Courses
 
-- I-Core Finance *(Class 1 TVM live)*
+- I-Core Finance *(Week 1 Class 1–2 TVM live)*
 - I-Core Marketing
 - I-Core Leadership
 - I-Core Operations *(Class 1 / Ch. 1 live)*
