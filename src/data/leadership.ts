@@ -1,6 +1,6 @@
 import type { Flashcard, NoteSection, Quiz } from './types'
 
-/** I-Core Leadership (Z370) — Day 1 Intro to Management + OB attitudes foundations */
+/** I-Core Leadership (Z370) — Days 1–2 (Intro to Management + Attitudes) */
 export const leadershipNotes: NoteSection[] = [
   {
     id: 'ldr-d1-course',
@@ -150,6 +150,7 @@ export const leadershipNotes: NoteSection[] = [
     bullets: [
       'Cognitive dissonance = perceived contradictions between attitudes and behavior (or between two cognitions).',
       'People typically reduce dissonance by: changing behavior, changing attitudes/beliefs, or rationalizing (minimizing importance, adding justifying cognitions).',
+      'Day 2 adds: belittle the importance of the inconsistent behavior; find consonant elements that outweigh dissonant ones.',
       'What is not a dissonance-reduction response: admitting the attitude–behavior conflict and saying you’ll keep doing the behavior anyway with no change or justification.',
       'Courier example: speeding while seeing yourself as law-abiding — likely responses include changing behavior, minimizing (“everyone speeds”), justifying with job needs, or reframing the rule; “it’s wrong but I’ll keep speeding” leaves the dissonance unresolved.',
     ],
@@ -185,6 +186,131 @@ export const leadershipNotes: NoteSection[] = [
         term: 'Power distance',
         definition:
           'Extent to which a society accepts unequal power distribution in institutions and organizations.',
+      },
+    ],
+  },
+  {
+    id: 'ldr-d2-tpb',
+    title: 'Ajzen’s theory of planned behavior',
+    bullets: [
+      'Personal attitudes influence behavior through intentions — not directly in one hop.',
+      'Ajzen’s theory of planned behavior (TPB): attitudes (and related beliefs) shape behavioral intentions; intentions then predict behavior.',
+      'Managers who want behavior change often need to address attitudes and the intention pathway — not only rules or incentives.',
+    ],
+    keyTerms: [
+      {
+        term: 'Theory of planned behavior (Ajzen)',
+        definition:
+          'Framework where attitudes affect behavioral intentions, and intentions predict subsequent behavior.',
+      },
+    ],
+  },
+  {
+    id: 'ldr-d2-four-attitudes',
+    title: 'Four potent workplace attitudes',
+    bullets: [
+      'Some workplace attitudes matter more than others. Four especially powerful ones: job satisfaction, employee engagement, organizational commitment, and perceived organizational support (POS).',
+      'Job satisfaction: affective/emotional response toward various facets of one’s job — how much the individual likes the job.',
+      'Employee engagement: extent employees give their all to work roles — includes feelings of urgency, focus, intensity, and enthusiasm.',
+      'Organizational commitment: extent an employee identifies with the organization and is committed to its goals.',
+      'Perceived organizational support (POS): extent employees believe the organization values their contributions and genuinely cares about their well-being.',
+    ],
+    keyTerms: [
+      {
+        term: 'Employee engagement',
+        definition:
+          'Extent employees invest fully in work roles — urgency, focus, intensity, and enthusiasm.',
+      },
+      {
+        term: 'Organizational commitment',
+        definition:
+          'Extent an employee identifies with the organization and is committed to its goals.',
+      },
+    ],
+  },
+  {
+    id: 'ldr-d2-attitude-outcomes',
+    title: 'Outcomes linked to key attitudes',
+    bullets: [
+      'Organizational commitment → greater employee retention; greater motivation to pursue organizational goals.',
+      'Employee engagement → increased customer loyalty and satisfaction; increased employee performance and well-being; improved financial performance.',
+      'Perceived organizational support → increased organizational commitment and job satisfaction; more organizational citizenship behavior (OCB) and task performance; lower turnover.',
+      'These four attitudes are related to important work outcomes — diagnosing weak attitudes can predict withdrawal, CWB, or performance gaps.',
+    ],
+    keyTerms: [
+      {
+        term: 'Organizational citizenship behavior (OCB)',
+        definition:
+          'Discretionary behaviors that benefit the organization beyond formal job requirements — often linked to satisfaction, POS, and commitment.',
+      },
+    ],
+  },
+  {
+    id: 'ldr-d2-dissatisfaction',
+    title: 'Responses to job dissatisfaction (EVLN)',
+    bullets: [
+      'When employees are dissatisfied, responses vary along two dimensions: constructive vs destructive, and active vs passive.',
+      'Active + constructive = Voice — actively and constructively trying to improve conditions (speak up, propose fixes).',
+      'Passive + constructive = Loyalty — passively but optimistically waiting for conditions to improve.',
+      'Active + destructive = Exit — leaving the organization or job.',
+      'Passive + destructive = Neglect — passively allowing conditions to worsen (reduced effort, lateness, ignoring responsibilities).',
+      'Destructive responses harm the organization; constructive responses try to fix the situation. Active responses take initiative; passive responses withhold action.',
+    ],
+    keyTerms: [
+      {
+        term: 'EVLN model',
+        definition:
+          'Exit, Voice, Loyalty, Neglect — four responses to dissatisfaction mapped on active/passive and constructive/destructive axes.',
+      },
+      {
+        term: 'Voice (dissatisfaction response)',
+        definition:
+          'Active, constructive response — attempting to improve dissatisfying conditions.',
+      },
+      {
+        term: 'Neglect (dissatisfaction response)',
+        definition:
+          'Passive, destructive response — allowing conditions to worsen through reduced effort or inattention.',
+      },
+    ],
+  },
+  {
+    id: 'ldr-d2-cwb',
+    title: 'Counterproductive work behavior (CWB)',
+    bullets: [
+      'Counterproductive work behaviors (CWB) actively damage the organization.',
+      'Examples: stealing, behaving aggressively toward coworkers, chronic lateness or absenteeism.',
+      'CWB is inversely related to job satisfaction — dissatisfied employees are more likely to engage in destructive behaviors.',
+      'Neglect (passive destructive) and CWB (active destructive) are different: neglect is withdrawal; CWB is intentional harm or rule-breaking.',
+    ],
+    keyTerms: [
+      {
+        term: 'Counterproductive work behavior (CWB)',
+        definition:
+          'Actions that actively damage the organization — theft, aggression toward coworkers, lateness, absenteeism.',
+      },
+    ],
+  },
+  {
+    id: 'ldr-d2-js-outcomes',
+    title: 'Job satisfaction outcome map (Day 2)',
+    bullets: [
+      'Job satisfaction links to both attitudinal and behavioral outcomes — some relationships are inverse (marked * below).',
+      'Attitudinal outcomes: higher motivation and job involvement; lower withdrawal cognitions* and perceived stress*.',
+      'Behavioral outcomes: higher job performance and OCB; lower CWB* and turnover*.',
+      'Inverse relationships (*): satisfaction tends to reduce withdrawal thoughts, stress, counterproductive behavior, and turnover — and increase positive outcomes on the other side.',
+      'Day 1 also highlights job performance, customer satisfaction, and life satisfaction as satisfaction outcomes — Day 2 adds the fuller OB outcome web (motivation, involvement, OCB, CWB, turnover).',
+    ],
+    keyTerms: [
+      {
+        term: 'Job involvement',
+        definition:
+          'Degree to which a person psychologically identifies with and is engaged in their work — positively linked to job satisfaction.',
+      },
+      {
+        term: 'Withdrawal cognitions',
+        definition:
+          'Thoughts about leaving the job or organization — inversely related to job satisfaction.',
       },
     ],
   },
@@ -298,6 +424,84 @@ export const leadershipFlashcards: Flashcard[] = [
     topic: 'IPO',
     front: 'Where do diversity / personality / values sit in the IPO model?',
     back: 'Individual-level inputs.',
+  },
+  {
+    id: 'fc-ldr-19',
+    topic: 'TPB',
+    front: 'How do attitudes affect behavior in Ajzen’s theory of planned behavior?',
+    back: 'Attitudes shape behavioral intentions; intentions then predict behavior — not a direct attitude→behavior jump.',
+  },
+  {
+    id: 'fc-ldr-20',
+    topic: 'Four attitudes',
+    front: 'Name the four especially potent workplace attitudes from Day 2.',
+    back: 'Job satisfaction, employee engagement, organizational commitment, perceived organizational support (POS).',
+  },
+  {
+    id: 'fc-ldr-21',
+    topic: 'Four attitudes',
+    front: 'Define employee engagement and name four feeling components.',
+    back: 'Extent employees give their all to work roles — urgency, focus, intensity, enthusiasm.',
+  },
+  {
+    id: 'fc-ldr-22',
+    topic: 'Four attitudes',
+    front: 'Define organizational commitment vs perceived organizational support.',
+    back: 'Commitment = identifies with org and its goals. POS = belief the org values your contributions and cares about your well-being.',
+  },
+  {
+    id: 'fc-ldr-23',
+    topic: 'Outcomes',
+    front: 'What outcomes does organizational commitment lead to?',
+    back: 'Greater employee retention; greater motivation to pursue organizational goals.',
+  },
+  {
+    id: 'fc-ldr-24',
+    topic: 'Outcomes',
+    front: 'List outcomes linked to employee engagement.',
+    back: 'Increased customer loyalty/satisfaction, employee performance, employee well-being, financial performance.',
+  },
+  {
+    id: 'fc-ldr-25',
+    topic: 'Outcomes',
+    front: 'What outcomes does POS predict?',
+    back: 'Higher commitment and job satisfaction; more OCB and task performance; lower turnover.',
+  },
+  {
+    id: 'fc-ldr-26',
+    topic: 'EVLN',
+    front: 'Map the four EVLN responses to active/passive and constructive/destructive.',
+    back: 'Voice = active constructive. Loyalty = passive constructive. Exit = active destructive. Neglect = passive destructive.',
+  },
+  {
+    id: 'fc-ldr-27',
+    topic: 'EVLN',
+    front: 'A dissatisfied employee reduces effort and shows up late but doesn’t quit. Which EVLN response?',
+    back: 'Neglect — passive destructive (allowing conditions to worsen through withdrawal).',
+  },
+  {
+    id: 'fc-ldr-28',
+    topic: 'CWB',
+    front: 'Define counterproductive work behavior and give three examples.',
+    back: 'Actions that actively damage the org: stealing, aggression toward coworkers, chronic lateness/absenteeism.',
+  },
+  {
+    id: 'fc-ldr-29',
+    topic: 'Job satisfaction',
+    front: 'Which job satisfaction outcomes are inversely related (*)?',
+    back: 'Withdrawal cognitions, perceived stress, CWB, and turnover — satisfaction lowers these.',
+  },
+  {
+    id: 'fc-ldr-30',
+    topic: 'Job satisfaction',
+    front: 'Name positive attitudinal and behavioral outcomes of job satisfaction.',
+    back: 'Attitudinal: motivation, job involvement. Behavioral: job performance, OCB.',
+  },
+  {
+    id: 'fc-ldr-31',
+    topic: 'Dissonance',
+    front: 'Name three ways to reduce cognitive dissonance (Day 2 list).',
+    back: 'Change attitudes, behaviors, or both; belittle the importance of the inconsistent behavior; find consonant elements that outweigh dissonant ones.',
   },
 ]
 
@@ -561,6 +765,246 @@ export const leadershipQuizzes: Quiz[] = [
         correctIndex: 3,
         explanation:
           'Textbook definition: attitudes are evaluative statements/judgments about objects, people, or events.',
+      },
+    ],
+  },
+  {
+    id: 'quiz-ldr-d2-attitudes',
+    title: 'Day 2 — Attitudes & TPB',
+    description:
+      'Four key attitudes, Ajzen’s TPB, cognitive dissonance, and attitude-outcome links.',
+    questions: [
+      {
+        id: 'ld2-q1',
+        prompt:
+          'In Ajzen’s theory of planned behavior, attitudes most directly influence behavior through:',
+        choices: [
+          'Immediate automatic reflexes',
+          'Behavioral intentions',
+          'Organizational structure only',
+          'Group-level politics',
+        ],
+        correctIndex: 1,
+        explanation:
+          'TPB path: attitudes → intentions → behavior. Managers must address the intention pathway.',
+      },
+      {
+        id: 'ld2-q2',
+        prompt:
+          'Which attitude reflects the extent employees give their all — with urgency, focus, intensity, and enthusiasm?',
+        choices: [
+          'Organizational commitment',
+          'Employee engagement',
+          'Perceived organizational support',
+          'Cognitive dissonance',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Employee engagement = full investment in work roles with urgency, focus, intensity, enthusiasm.',
+      },
+      {
+        id: 'ld2-q3',
+        prompt:
+          'Organizational commitment is best defined as:',
+        choices: [
+          'Belief the org values your contributions and cares about your well-being',
+          'Extent an employee identifies with the organization and is committed to its goals',
+          'Affective response toward facets of one’s job',
+          'Intention to steal from the organization',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Commitment = identification with the org + commitment to its goals. POS is the “values/cares” belief.',
+      },
+      {
+        id: 'ld2-q4',
+        prompt:
+          'Perceived organizational support (POS) is most likely to increase:',
+        choices: [
+          'Turnover and CWB',
+          'OCB, task performance, commitment, and job satisfaction',
+          'Withdrawal cognitions only',
+          'Power distance',
+        ],
+        correctIndex: 1,
+        explanation:
+          'POS → higher commitment, satisfaction, OCB, task performance, and lower turnover.',
+      },
+      {
+        id: 'ld2-q5',
+        prompt:
+          'Employee engagement is linked to which set of outcomes?',
+        choices: [
+          'Only lower turnover',
+          'Customer loyalty/satisfaction, employee performance, well-being, and financial performance',
+          'Only increased CWB',
+          'Only organizational survival at the group level',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Engagement ripples to customers, individual performance, well-being, and firm financial results.',
+      },
+      {
+        id: 'ld2-q6',
+        prompt:
+          'To reduce cognitive dissonance, people may:',
+        choices: [
+          'Only ignore the problem with no attitude or behavior change',
+          'Change attitudes, behaviors, or both; belittle importance; or find consonant elements outweighing dissonant ones',
+          'Only increase the inconsistent behavior',
+          'Only blame coworkers',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Day 2 reduction paths: change cognitions/behavior, minimize importance, or emphasize consistent elements.',
+      },
+      {
+        id: 'ld2-q7',
+        prompt:
+          'Job satisfaction is best described as:',
+        choices: [
+          'Extent of identification with organizational goals',
+          'An affective/emotional response toward facets of one’s job — how much the individual likes the job',
+          'Only the cognitive belief that work is moral duty',
+          'Passive destructive withdrawal',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Job satisfaction = affective evaluation of job facets — liking the job.',
+      },
+      {
+        id: 'ld2-q8',
+        prompt:
+          'Which job satisfaction outcome is inversely related (higher satisfaction → lower outcome)?',
+        choices: [
+          'Job involvement',
+          'Organizational citizenship behavior',
+          'Counterproductive work behavior',
+          'Motivation',
+        ],
+        correctIndex: 2,
+        explanation:
+          'CWB, turnover, withdrawal cognitions, and perceived stress are inverse; involvement, OCB, motivation, performance are positive.',
+      },
+    ],
+  },
+  {
+    id: 'quiz-ldr-d2-evln',
+    title: 'Day 2 — EVLN & counterproductive behavior',
+    description:
+      'Map dissatisfaction responses and distinguish neglect, exit, voice, and CWB.',
+    questions: [
+      {
+        id: 'ld2-q9',
+        prompt:
+          'An employee speaks up at a meeting to propose fixes for poor working conditions. This is:',
+        choices: [
+          'Exit',
+          'Voice',
+          'Loyalty',
+          'Neglect',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Voice = active constructive — trying to improve conditions.',
+      },
+      {
+        id: 'ld2-q10',
+        prompt:
+          'A dissatisfied worker passively waits, hoping things improve without taking action. This is:',
+        choices: [
+          'Exit',
+          'Voice',
+          'Loyalty',
+          'Neglect',
+        ],
+        correctIndex: 2,
+        explanation:
+          'Loyalty = passive constructive — optimistic waiting.',
+      },
+      {
+        id: 'ld2-q11',
+        prompt:
+          'Quitting the organization in response to dissatisfaction is classified as:',
+        choices: [
+          'Active destructive (Exit)',
+          'Passive constructive (Loyalty)',
+          'Active constructive (Voice)',
+          'Passive destructive (Neglect)',
+        ],
+        correctIndex: 0,
+        explanation:
+          'Exit = active destructive — leaving the situation.',
+      },
+      {
+        id: 'ld2-q12',
+        prompt:
+          'Reduced effort, lateness, and ignoring responsibilities while staying on the job map to:',
+        choices: [
+          'Voice',
+          'Loyalty',
+          'Neglect',
+          'Organizational commitment',
+        ],
+        correctIndex: 2,
+        explanation:
+          'Neglect = passive destructive — conditions worsen through withdrawal behaviors.',
+      },
+      {
+        id: 'ld2-q13',
+        prompt:
+          'Counterproductive work behaviors (CWB) include:',
+        choices: [
+          'Organizational citizenship behavior and mentoring',
+          'Stealing, aggression toward coworkers, and chronic lateness/absenteeism',
+          'Voice and loyalty only',
+          'Only passive constructive responses',
+        ],
+        correctIndex: 1,
+        explanation:
+          'CWB actively damages the org — theft, aggression, lateness, absence.',
+      },
+      {
+        id: 'ld2-q14',
+        prompt:
+          'Neglect differs from CWB because neglect is primarily:',
+        choices: [
+          'Active destructive harm like theft',
+          'Passive destructive withdrawal — reduced effort without necessarily intentional org damage',
+          'Active constructive problem-solving',
+          'The same as organizational commitment',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Neglect = passive withdrawal; CWB = active damaging behaviors (theft, aggression, etc.).',
+      },
+      {
+        id: 'ld2-q15',
+        prompt:
+          'Higher job satisfaction is positively related to job performance and OCB, and inversely related to:',
+        choices: [
+          'Job involvement and motivation',
+          'CWB and turnover',
+          'Employee engagement only',
+          'Organizational commitment only',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Inverse links: CWB, turnover, withdrawal cognitions, perceived stress. Positive: performance, OCB, involvement, motivation.',
+      },
+      {
+        id: 'ld2-q16',
+        prompt:
+          'Greater organizational commitment most directly supports:',
+        choices: [
+          'Higher turnover and lower motivation for org goals',
+          'Greater retention and motivation to pursue organizational goals',
+          'Only increased CWB',
+          'Only passive neglect',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Commitment → retention + motivation toward org goals.',
       },
     ],
   },

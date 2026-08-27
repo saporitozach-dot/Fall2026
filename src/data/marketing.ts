@@ -1,6 +1,6 @@
 import type { Flashcard, NoteSection, Quiz } from './types'
 
-/** I-Core Marketing (M370) — Lecture #1 Class Introduction */
+/** I-Core Marketing (M370) — Lectures #1–2 (Class Intro + Ch. 1 Overview) */
 export const marketingNotes: NoteSection[] = [
   {
     id: 'mkt-c1-framing',
@@ -146,6 +146,183 @@ export const marketingNotes: NoteSection[] = [
       'Carry-forward question: Why should a customer choose us — over all alternatives — at this price?',
     ],
   },
+  {
+    id: 'mkt-c2-five-aspects',
+    title: 'Five core aspects of marketing (Ch. 1)',
+    bullets: [
+      'Marketing entails an exchange — a trade of value between buyer and seller so each is better off.',
+      'Marketing satisfies customer needs and wants (not just stated needs).',
+      'Marketing affects many stakeholders — not only end customers.',
+      'Marketing can be performed by individuals and organizations (B2B, B2C, C2C).',
+      'Marketing creates value through integrated Product, Price, Place, and Promotion decisions.',
+    ],
+    keyTerms: [
+      {
+        term: 'Five core aspects of marketing',
+        definition:
+          'Exchange; satisfying needs/wants; stakeholder impact; individuals and organizations; value creation via the 4 Ps.',
+      },
+    ],
+  },
+  {
+    id: 'mkt-c2-exchange',
+    title: 'Exchange: goods, services, and ideas',
+    bullets: [
+      'Exchange requires something to trade (goods, services, or ideas), a buyer–seller relationship, and usually money — routed through a supply chain.',
+      'Goods: physical items (e.g., Tide vs store-brand detergent — differentiation via compelling features and benefits in the customer’s mind).',
+      'Services: intangible benefits from people or machines; brands differentiate on how they deliver the service. Customers cannot inspect a service before buying — trust and delivery quality matter more.',
+      'Ideas: thoughts, opinions, philosophies — intellectual concepts can be marketed (packaged slogans, symbols, and narratives that make a worldview recognizable).',
+      'New product ideas often start by uncovering everyday consumer needs — what people wish they had for home, work, cars, computers, etc.',
+    ],
+    keyTerms: [
+      {
+        term: 'Exchange (marketing)',
+        definition:
+          'Trade of things of value between buyer and seller so that each party is better off — via goods, services, or ideas, usually involving money and a route-to-market.',
+      },
+    ],
+  },
+  {
+    id: 'mkt-c2-insights',
+    title: 'From consumer need to marketing insight',
+    bullets: [
+      'Marketers generate product ideas by uncovering needs — including emotional needs customers may not articulate directly.',
+      'Pillsbury example: foundational insight — mothers want to make their children happy.',
+      'Strategy lever: position baking products not just as food but as a simple way for busy moms to create memorable, happy family moments.',
+      'Tactics from the insight: emphasize shared kitchen moments; Doughboy as “Mommy’s Secret Helper”; appeal to moms’ generous spirit.',
+    ],
+    keyTerms: [
+      {
+        term: 'Marketing insight',
+        definition:
+          'A deep, actionable truth about what customers need or want emotionally/functionally — the foundation for positioning and the marketing mix.',
+      },
+    ],
+  },
+  {
+    id: 'mkt-c2-context',
+    title: 'Who markets, and who is affected',
+    bullets: [
+      'Marketing contexts: B2B (business-to-business), B2C (business-to-consumer), and C2C (consumer-to-consumer).',
+      'Stakeholders beyond customers: supply-chain partners, employees, and society at large.',
+      'Example tension: data centers deliver essential digital services but strain local energy and physical resources — sparking debate among communities, businesses, and governments.',
+    ],
+    keyTerms: [
+      {
+        term: 'B2B / B2C / C2C',
+        definition:
+          'Business-to-business, business-to-consumer, and consumer-to-consumer marketing contexts.',
+      },
+    ],
+  },
+  {
+    id: 'mkt-c2-value-bcr',
+    title: 'Value creation and cost–benefit analysis',
+    bullets: [
+      'The 4 Ps are the controllable decisions a firm uses to respond to its target market’s wants — each P influences value creation.',
+      'Value reflects the relationship of benefits to costs (same logic as perceived value ≈ benefits − costs).',
+      'Cost–benefit analysis (CBA): compare total benefits of an exchange against total costs to judge net value and viability.',
+      'Benefit–cost ratio (BCR) = present value of benefits ÷ present value of costs.',
+      'BCR > 1 → exchange likely adds net value (smart move). BCR = 1 → no net gain. BCR < 1 → costs exceed benefits (reject).',
+    ],
+    keyTerms: [
+      {
+        term: 'Benefit–cost ratio (BCR)',
+        definition:
+          'Present value of benefits divided by present value of costs; BCR > 1 favors the exchange, BCR < 1 favors rejection.',
+      },
+      {
+        term: 'Cost–benefit analysis (CBA)',
+        definition:
+          'Method comparing total benefits of an exchange to its total costs to determine net value and viability.',
+      },
+    ],
+  },
+  {
+    id: 'mkt-c2-apple',
+    title: 'Case lens: Apple’s 4 Ps as an ecosystem',
+    bullets: [
+      'Product: streamlined premium hardware (iPhone, Mac, iPad, Watch, AirPods, TV); ecosystem integration (iOS, iCloud, Music) locks users in; design, minimalism, and innovation over SKU breadth.',
+      'Price: premium pricing reinforces luxury/high-end image; price skimming on flagships; rare broad discounts (mostly education) to protect brand equity.',
+      'Place: experiential Apple Stores in high-traffic locations; direct online sales; authorized resellers, carriers, wholesalers, and electronics retailers.',
+      'Promotion: lifestyle/emotional storytelling (privacy, creativity, human connection); global keynotes for earned media; #ShotOniPhone UGC showcases real users.',
+      'Lesson: the 4 Ps reinforce one premium ecosystem — each P signals and delivers value consistently.',
+    ],
+  },
+  {
+    id: 'mkt-c2-evolution',
+    title: 'Evolution of marketing eras',
+    bullets: [
+      'Production-oriented era (~turn of 20th century): belief that a good product sells itself.',
+      'Sales-oriented era: production and distribution sophistication led to supply exceeding demand — firms answered overproduction by pushing sales.',
+      'Market-oriented era: focus shifted to what customers wanted; firms discovered marketing communication.',
+      'Value-based era: market orientation plus delivering greater value than competitors; value = benefits/costs; relational orientation and CRM (customer relationship management) become central.',
+      'Today (augmented / value marketing): digital, mobile, internet, robotics, AI, and other tech augment value; creativity is a key delivery method for the value proposition.',
+    ],
+    keyTerms: [
+      {
+        term: 'Value-based marketing',
+        definition:
+          'Implementing strategy according to what customers value — understanding value drives exchange, with relational CRM as a success lever.',
+      },
+      {
+        term: 'CRM (customer relationship management)',
+        definition:
+          'Systems and practices for building and managing customer relationships — emphasized in the value-based marketing era.',
+      },
+    ],
+  },
+  {
+    id: 'mkt-c2-value-metrics',
+    title: 'Measuring value creation',
+    bullets: [
+      'Analytics systems track whether a firm, project, or investment generates returns above cost — combining monetary metrics, market signals, and operational indicators.',
+      'Discounted cash flow (DCF): present value of projected future cash flows from an asset or business unit.',
+      'Customer value metrics: NPS, retention, customer lifetime value (LTV/CLV) — link experience to financial returns.',
+      'Operational KPIs: cycle time, utilization, digital self-service rates — efficiency drivers that feed financial outcomes.',
+      'EVA (economic value added): net operating profit after tax minus investor cost of capital (WACC) — true economic profit.',
+      'TSR (total shareholder return): stock appreciation plus reinvested dividends over a period.',
+      'MVC (market value creation): firm market value vs broader benchmarks — isolates management “alpha.”',
+    ],
+    keyTerms: [
+      {
+        term: 'EVA (economic value added)',
+        definition:
+          'Net operating profit after tax minus the cost of capital (WACC) — measures true economic profit.',
+      },
+      {
+        term: 'DCF (discounted cash flow)',
+        definition:
+          'Estimates present value of all projected future cash flows from an asset or business unit.',
+      },
+    ],
+  },
+  {
+    id: 'mkt-c2-warby',
+    title: 'Case lens: Warby Parker — insight to mixed reality',
+    bullets: [
+      'Central insight: traditional eyewear was an outdated monopoly with excessive markups; vertical integration + DTC could deliver a superior experience at a revolutionary price.',
+      'Value proposition: affordable, high-quality, stylish eyewear via convenient DTC with at-home try-on.',
+      'Product: fashionable prescription eyewear and sunglasses at accessible prices.',
+      'Price: transparent mid-range pricing — no hidden costs; easy to understand total cost.',
+      'Place: primarily own e-commerce and mobile app — direct control of customer experience.',
+      'Promotion: content marketing, UGC (#WarbyHomeTryOn), Instagram community, targeted digital ads, micro-influencers, referral/word-of-mouth programs.',
+      'Business reality (2020 IPO): ~$572M venture capital, ~$3B valuation, ~$394M revenue, ~−$56M net loss — stakeholders demanded growth while online eyeglass sales were only ~8% of the market.',
+      'Strategic pivot: opened physical retail “the Warby Parker way” to scale — raises exam-style questions: Is the product differentiated enough? Is value sufficient? Can DTC brands survive retail expansion? (Casper Sleep parallel: DTC mattress IPO, shares fell ~50% post-IPO).',
+    ],
+    keyTerms: [
+      {
+        term: 'DTC (direct-to-consumer)',
+        definition:
+          'Selling directly via owned channels (web/app) rather than traditional wholesale — Warby Parker’s initial route-to-market.',
+      },
+      {
+        term: 'Vertical integration (Warby Parker)',
+        definition:
+          'Owning more of the value chain (design, distribution) to cut middleman markups and control experience and price.',
+      },
+    ],
+  },
 ]
 
 export const marketingFlashcards: Flashcard[] = [
@@ -256,6 +433,96 @@ export const marketingFlashcards: Flashcard[] = [
     topic: 'Core question',
     front: 'Closing carry-forward question from Lecture 1?',
     back: 'Why should a customer choose us — over all alternatives — at this price?',
+  },
+  {
+    id: 'fc-mkt-19',
+    topic: 'Five aspects',
+    front: 'List the five core aspects of marketing from Ch. 1.',
+    back: 'Exchange; satisfying needs/wants; affects stakeholders; individuals and organizations; creates value via the 4 Ps.',
+  },
+  {
+    id: 'fc-mkt-20',
+    topic: 'Exchange',
+    front: 'Define marketing exchange and name three things that can be exchanged.',
+    back: 'Trade of value between buyer and seller so each is better off. Can exchange goods, services, or ideas (usually via money and a supply chain).',
+  },
+  {
+    id: 'fc-mkt-21',
+    topic: 'Goods vs services',
+    front: 'How do service brands differentiate vs goods brands, pre-purchase?',
+    back: 'Services are intangible — customers can’t inspect before buying. Service brands differentiate on how they deliver and build trust; goods brands often differentiate on tangible features/benefits in the customer’s mind.',
+  },
+  {
+    id: 'fc-mkt-22',
+    topic: 'Insights',
+    front: 'What was Pillsbury’s foundational marketing insight, and how was it used?',
+    back: 'Mothers want to make their children happy → position baking products as a simple way to create memorable family moments (shared kitchen time, Doughboy as “Secret Helper,” generosity).',
+  },
+  {
+    id: 'fc-mkt-23',
+    topic: 'Context',
+    front: 'Name the three marketing contexts (B___, B___, C___) and one stakeholder group beyond customers.',
+    back: 'B2B, B2C, C2C. Other stakeholders: supply-chain partners, employees, society at large.',
+  },
+  {
+    id: 'fc-mkt-24',
+    topic: 'Value / BCR',
+    front: 'Write the BCR formula and interpret BCR > 1, = 1, and < 1.',
+    back: 'BCR = PV of benefits ÷ PV of costs. > 1 = net value likely (smart); = 1 = no net gain; < 1 = reject (costs exceed benefits).',
+  },
+  {
+    id: 'fc-mkt-25',
+    topic: '4 Ps (Ch. 1)',
+    front: 'How does Ch. 1 define the marketing mix relative to target markets?',
+    back: 'The controllable set of decisions/activities the firm uses to respond to target-market wants — each P plays a role in value creation.',
+  },
+  {
+    id: 'fc-mkt-26',
+    topic: 'Apple case',
+    front: 'Name two Apple Price tactics and what they signal.',
+    back: 'Premium pricing and price skimming on flagships signal luxury/elite quality; rare broad discounts protect brand equity (education discounts are the main exception).',
+  },
+  {
+    id: 'fc-mkt-27',
+    topic: 'Apple case',
+    front: 'How does Apple use Place and Promotion to reinforce its ecosystem?',
+    back: 'Place: experiential Apple Stores + direct online + selective third-party channels. Promotion: emotional lifestyle storytelling, global keynotes, #ShotOniPhone UGC.',
+  },
+  {
+    id: 'fc-mkt-28',
+    topic: 'Evolution',
+    front: 'Order the four historical marketing eras and the trigger for the sales-oriented shift.',
+    back: 'Production → Sales → Market-oriented → Value-based. Sales era: supply outpaced demand (overproduction) so firms pushed sales.',
+  },
+  {
+    id: 'fc-mkt-29',
+    topic: 'Evolution',
+    front: 'What distinguishes value-based marketing from market-oriented marketing?',
+    back: 'Value-based keeps customer focus but adds delivering greater value than competitors (benefits/costs), relational orientation, and CRM.',
+  },
+  {
+    id: 'fc-mkt-30',
+    topic: 'Value metrics',
+    front: 'Match: DCF, EVA, NPS/LTV — what does each measure?',
+    back: 'DCF = PV of future cash flows. EVA = economic profit after subtracting cost of capital (WACC). NPS/LTV/retention = customer experience linked to financial returns.',
+  },
+  {
+    id: 'fc-mkt-31',
+    topic: 'Warby Parker',
+    front: 'What was Warby Parker’s central market insight?',
+    back: 'Traditional eyewear was a monopoly with excessive markups; vertical integration + DTC could offer a superior experience at a revolutionary transparent price.',
+  },
+  {
+    id: 'fc-mkt-32',
+    topic: 'Warby Parker',
+    front: 'Summarize Warby Parker’s initial 4 Ps in one line each.',
+    back: 'Product: stylish affordable Rx/sunglasses. Price: transparent mid-range, no hidden fees. Place: owned e-commerce/app (DTC). Promotion: content, UGC (#WarbyHomeTryOn), social, influencers, referrals.',
+  },
+  {
+    id: 'fc-mkt-33',
+    topic: 'Warby Parker',
+    front: 'Why did Warby Parker open physical stores despite starting DTC?',
+    back: 'Stakeholders demanded growth; online was only ~8% of eyewear market; needed scale. Opens strategic questions about differentiation, value, and DTC→retail risk (Casper parallel).',
   },
 ]
 
@@ -464,6 +731,241 @@ export const marketingQuizzes: Quiz[] = [
         correctIndex: 1,
         explanation:
           'Marketing is framed as a profitability and growth discipline beyond a siloed function.',
+      },
+    ],
+  },
+  {
+    id: 'quiz-mkt-c2-concepts',
+    title: 'Lecture 2 — Ch. 1 core concepts',
+    description:
+      'Five aspects of marketing, exchange, insights, stakeholders, BCR, and marketing evolution.',
+    questions: [
+      {
+        id: 'mq15',
+        prompt:
+          'Which is NOT one of the five core aspects of marketing from Ch. 1?',
+        choices: [
+          'Marketing entails an exchange',
+          'Marketing satisfies customer needs and wants',
+          'Marketing is only about manufacturing efficiency',
+          'Marketing creates value through the 4 Ps',
+        ],
+        correctIndex: 2,
+        explanation:
+          'The five aspects center on exchange, needs, stakeholders, who can market, and 4P value creation — not factory efficiency alone.',
+      },
+      {
+        id: 'mq16',
+        prompt: 'Marketing exchange is best defined as:',
+        choices: [
+          'A one-sided transfer where only the seller gains',
+          'A trade of things of value between buyer and seller so each is better off',
+          'Only the physical movement of goods in a warehouse',
+          'Government regulation of prices',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Exchange requires value traded (goods, services, or ideas), a buyer–seller relationship, and usually money via a route-to-market.',
+      },
+      {
+        id: 'mq17',
+        prompt:
+          'Why is trust especially critical for service brands compared to many goods?',
+        choices: [
+          'Services are always cheaper than goods',
+          'Customers cannot see or touch a service before buying — differentiation depends on delivery and trust',
+          'Services cannot use promotion',
+          'Goods never require differentiation',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Intangible services must build trust and stand out on how they are delivered, not on physical inspection.',
+      },
+      {
+        id: 'mq18',
+        prompt: 'Pillsbury’s foundational insight was that:',
+        choices: [
+          'Mothers want the lowest possible price on flour',
+          'Mothers want to make their children happy — baking can create memorable family moments',
+          'Children prefer store-brand dough',
+          'Baking products should never be advertised',
+        ],
+        correctIndex: 1,
+        explanation:
+          'The emotional insight drives positioning beyond “food” to shared moments, the Doughboy helper, and generosity.',
+      },
+      {
+        id: 'mq19',
+        prompt: 'A BCR (benefit–cost ratio) of 0.8 implies:',
+        choices: [
+          'The exchange likely adds net value — proceed',
+          'Costs exceed benefits — reject the exchange',
+          'Benefits exactly equal costs',
+          'BCR is unrelated to exchange decisions',
+        ],
+        correctIndex: 1,
+        explanation:
+          'BCR = PV benefits ÷ PV costs. BCR < 1 means costs outweigh benefits.',
+      },
+      {
+        id: 'mq20',
+        prompt:
+          'The sales-oriented era emerged primarily because:',
+        choices: [
+          'Customers had too few choices and demanded more ads',
+          'Supply outpaced demand — firms focused on selling to address overproduction',
+          'The internet eliminated all physical goods',
+          'Value-based marketing had not yet been invented in the 1800s',
+        ],
+        correctIndex: 1,
+        explanation:
+          'As production/distribution grew sophisticated, overproduction pushed firms toward a sales focus.',
+      },
+      {
+        id: 'mq21',
+        prompt:
+          'Value-based marketing adds which emphasis beyond market orientation?',
+        choices: [
+          'Ignoring customer wants entirely',
+          'Delivering greater value than competitors, relational CRM, and value = benefits/costs',
+          'Only cutting price regardless of benefits',
+          'Eliminating all stakeholder concerns',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Value-based era: beat competitors on value, build relationships via CRM, and implement what customers value.',
+      },
+      {
+        id: 'mq22',
+        prompt: 'EVA (economic value added) measures:',
+        choices: [
+          'Only social-media impressions',
+          'True economic profit: NOPAT minus the investor’s cost of capital (WACC)',
+          'The number of SKUs in a product line',
+          'Gross margin before any costs',
+        ],
+        correctIndex: 1,
+        explanation:
+          'EVA subtracts cost of capital from net operating profit after tax to gauge real economic profit.',
+      },
+    ],
+  },
+  {
+    id: 'quiz-mkt-c2-cases',
+    title: 'Lecture 2 — Apple & Warby Parker application',
+    description:
+      'Apply the 4 Ps, DTC strategy, and growth tensions from the chapter cases.',
+    questions: [
+      {
+        id: 'mq23',
+        prompt:
+          'Apple’s premium pricing and rare broad discounts primarily serve to:',
+        choices: [
+          'Match gas-station coffee prices',
+          'Reinforce luxury/high-end brand image and protect brand equity',
+          'Eliminate all third-party distribution',
+          'Signal that Apple products are low quality',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Premium pricing and price skimming signal elite quality; avoiding broad discounting protects equity.',
+      },
+      {
+        id: 'mq24',
+        prompt:
+          'Which Apple Promotion tactic turns customers into marketers?',
+        choices: [
+          'Mandatory technical-spec-only ads',
+          'User-generated campaigns like #ShotOniPhone showcasing real photos',
+          'Banning all social media',
+          'Only in-store flyers with no digital presence',
+        ],
+        correctIndex: 1,
+        explanation:
+          'UGC lets real users demonstrate product capability — promotion beyond spec sheets.',
+      },
+      {
+        id: 'mq25',
+        prompt: 'Warby Parker’s central market insight targeted:',
+        choices: [
+          'That eyewear should only be sold in malls',
+          'An outdated monopoly with excessive markups — DTC + vertical integration could disrupt price and experience',
+          'That all glasses must be luxury-priced',
+          'That online sales already dominated (>90%) of eyewear',
+        ],
+        correctIndex: 1,
+        explanation:
+          'They saw markups and a poor customer experience in traditional channels — DTC could fix both.',
+      },
+      {
+        id: 'mq26',
+        prompt:
+          'Warby Parker’s initial Place strategy emphasized:',
+        choices: [
+          'Exclusive wholesale to traditional optical monopolies only',
+          'Owned e-commerce and mobile app — direct control of the customer experience',
+          'Only pop-up tents with no digital channel',
+          'Random third-party sellers with no brand control',
+        ],
+        correctIndex: 1,
+        explanation:
+          'DTC via owned web/app was the core route-to-market before retail expansion.',
+      },
+      {
+        id: 'mq27',
+        prompt:
+          'After IPO, a key tension driving Warby Parker toward physical stores was:',
+        choices: [
+          'Online eyeglass sales were already 90%+ of the market',
+          'Stakeholders demanded growth while online was only ~8% of the market — scale required broader reach',
+          'Retail stores always guarantee immediate profitability',
+          'Venture capital forbade any physical presence',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Low online penetration + growth pressure pushed the “Warby Parker way” retail expansion — with strategic risk.',
+      },
+      {
+        id: 'mq28',
+        prompt:
+          'The Casper Sleep parallel in Lecture 2 illustrates:',
+        choices: [
+          'Every DTC brand succeeds after IPO',
+          'DTC brands expanding to retail/IPO can face severe market skepticism — strategic questions about value and differentiation remain',
+          'Mattresses and eyeglasses have identical supply chains',
+          'Retail expansion always doubles share price',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Casper’s post-IPO share drop is a cautionary lens for Warby’s retail/growth bet — not a guarantee of failure or success.',
+      },
+      {
+        id: 'mq29',
+        prompt:
+          'Which Warby Parker Promotion tactic builds authenticity and trust?',
+        choices: [
+          'Hiding all customer photos',
+          'UGC and hashtags like #WarbyHomeTryOn plus micro-influencer collaborations',
+          'Only celebrity endorsements with no customer voice',
+          'Eliminating referral programs',
+        ],
+        correctIndex: 1,
+        explanation:
+          'UGC, social community, influencers, and referrals humanize the brand and leverage word-of-mouth.',
+      },
+      {
+        id: 'mq30',
+        prompt:
+          'Apple’s ecosystem integration (iOS, iCloud, Music across devices) primarily strengthens which P?',
+        choices: [
+          'Price only — by lowering all device prices',
+          'Product — hardware/software lock-in that increases switching costs and perceived value',
+          'Place only — by removing Apple Stores',
+          'Promotion only — with no product changes',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Seamless cross-device software/services deepen the Product value proposition and reinforce the premium ecosystem.',
       },
     ],
   },
