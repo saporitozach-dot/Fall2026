@@ -1008,4 +1008,156 @@ export const leadershipQuizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: 'quiz-ldr-personality',
+    title: 'Personality — Big Five, Dark Triad & values',
+    description:
+      'Exact items on openness, conscientiousness, emotional stability, narcissism, Machiavellianism, values, trait activation, and situational strength.',
+    questions: [
+      {
+        id: 'lp-q1',
+        prompt:
+          'Ming rates low on openness. Which of the following statements is most likely to be true about Ming?',
+        choices: [
+          'She will be well liked.',
+          'She will be very emotionally expressive.',
+          'She will be less comfortable with ambiguity.',
+          'She will be quite creative.',
+          'She will be quite compliant and conforming.',
+        ],
+        correctIndex: 2,
+        explanation:
+          'Low openness = preference for routine, tradition, and predictability — discomfort with ambiguity, change, and abstract novelty. Creativity and curiosity are high-openness traits.',
+      },
+      {
+        id: 'lp-q2',
+        prompt:
+          'Neha is positive, optimistic, and usually happy. In which of the Big Five personality traits would Neha most likely score high?',
+        choices: [
+          'Emotional stability',
+          'Conscientiousness',
+          'Openness to experience',
+          'Agreeableness',
+          'Extroversion',
+        ],
+        correctIndex: 0,
+        explanation:
+          'Emotional stability (low neuroticism) = calm, confident, secure, and generally positive. Conscientiousness is organized/dependable; extraversion is outgoing/sociable.',
+      },
+      {
+        id: 'lp-q3',
+        prompt:
+          'Which of the following is NOT a trait of a narcissistic individual?',
+        choices: [
+          'A tendency to exploit situations and people',
+          'Fantasies of grand success',
+          'A sense of entitlement',
+          'A lack of empathy',
+          'A tendency toward being insensitive',
+        ],
+        correctIndex: 4,
+        explanation:
+          'In the Dark Triad framework, exploitation, grandiosity, entitlement, and lack of empathy are narcissism markers. Insensitivity is more characteristic of psychopathy than narcissism in standard OB texts.',
+      },
+      {
+        id: 'lp-q4',
+        prompt:
+          'Brenda is a highly conscientious person per the Big Five Model, so she would be ________.',
+        choices: [
+          'creative, curious, and artistically sensitive',
+          'nervous, anxious, depressed, and insecure',
+          'responsible, organized, dependable, and persistent',
+          'reserved, timid, and quiet',
+          'gregarious, assertive, and sociable',
+        ],
+        correctIndex: 2,
+        explanation:
+          'Conscientiousness = organized, careful, dependable, disciplined, and achievement-oriented. Creative/curious = openness; anxious = low emotional stability; reserved = introversion; gregarious = extraversion.',
+      },
+      {
+        id: 'lp-q5',
+        prompt:
+          'Carlos is a very exciting person, people want to be friends with him and find his company very desirable. Carlos usually takes the lead within his circle of friends and seldom considers what others want. Most likely, Carlos has which of the Dark Triad?',
+        choices: [
+          'Machiavellianism and narcissism',
+          'Machiavellianism',
+          'Narcissism',
+          'Psychopathy',
+          'Psychopathy and narcissism',
+        ],
+        correctIndex: 2,
+        explanation:
+          'Charismatic, attention-seeking, self-centered leadership without regard for others’ needs fits narcissism (grandiosity + desire for admiration). Machiavellianism emphasizes strategic manipulation; psychopathy emphasizes callousness and impulsivity.',
+      },
+      {
+        id: 'lp-q6',
+        prompt:
+          'At work, Gopal\'s constant refrain is, "I do what I have to do to get ahead." Gopal would be described as high Machiavellian.',
+        choices: ['True', 'False'],
+        correctIndex: 0,
+        explanation:
+          'True — high Machiavellians are pragmatic, manipulative, and willing to do whatever it takes to advance their own interests.',
+      },
+      {
+        id: 'lp-q7',
+        prompt:
+          '________ represent relatively stable and enduring, basic convictions that some actions and outcomes are more morally, socially, or personally preferable than others.',
+        choices: [
+          'Intrinsic values',
+          'Generational values',
+          'Organizational values',
+          'Value systems',
+          'Values',
+        ],
+        correctIndex: 4,
+        explanation:
+          'Values are enduring beliefs about what is desirable or preferable. Value systems are broader frameworks; organizational/generational values are subsets or contexts.',
+      },
+      {
+        id: 'lp-q8',
+        prompt:
+          'A commission-based compensation plan would likely activate the extraversion trait because extraverts are more reward-sensitive, than, say, open people. This is an example of ________.',
+        choices: [
+          'trait-activation theory',
+          'cognitive dissonance theory',
+          'situation strength theory',
+          'instrumental values framework',
+          'organizational citizenship theory',
+        ],
+        correctIndex: 0,
+        explanation:
+          'Trait activation theory: situational cues (here, pay-for-performance rewards) make certain traits (extraversion/reward sensitivity) more likely to be expressed in behavior.',
+      },
+      {
+        id: 'lp-q9',
+        prompt:
+          'Joe, a paramedic, is a very self-directed person and does not need step-by-step instructions in his work. According to the idea of situational strength, if Joe\'s supervisor gives him detailed instructions on how to bandage a broken finger, Joe will perceive this as his manager ________.',
+        choices: [
+          'using good quality control',
+          'not having enough to do with her own time',
+          'being concerned for his well being',
+          'being neurotic and narcissistic',
+          'not having faith in his abilities',
+        ],
+        correctIndex: 4,
+        explanation:
+          'Strong situations (detailed directives) constrain self-expression. For a self-directed employee, micromanagement signals the supervisor does not trust his competence.',
+      },
+      {
+        id: 'lp-q10',
+        prompt:
+          'The abilities needed to perform mental activities-thinking, reasoning, and problem solving-are also known as ________.',
+        choices: [
+          'physical abilities',
+          'athletic abilities',
+          'intellectual abilities',
+          'cognitive abilities',
+          'proactive abilities',
+        ],
+        correctIndex: 3,
+        explanation:
+          'Cognitive abilities = mental capacities for thinking, reasoning, and problem solving. Intellectual abilities is a close synonym, but Robbins/Kinicki OB uses “cognitive abilities” as the standard term.',
+      },
+    ],
+  },
 ]
