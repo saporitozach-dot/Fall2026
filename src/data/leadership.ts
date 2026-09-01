@@ -1160,4 +1160,141 @@ export const leadershipQuizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: 'quiz-ldr-emotions-moods',
+    title: 'Emotions, moods & emotional intelligence',
+    description:
+      'Universal emotions, EI, emotions vs moods, affect intensity, and how stressful events shape mood.',
+    questions: [
+      {
+        id: 'lem-q1',
+        prompt:
+          'Anger, fear, sadness, happiness, disgust, and ________ are the six universal emotions.',
+        choices: ['surprise', 'love', 'envy', 'hate', 'jealousy'],
+        correctIndex: 0,
+        explanation:
+          'Paul Ekman’s research identifies six universal emotions: anger, fear, sadness, happiness, disgust, and surprise.',
+      },
+      {
+        id: 'lem-q2',
+        prompt:
+          'Which of the following statements is true regarding emotional intelligence (EI)?',
+        choices: [
+          'EI is a simple, straightforward concept.',
+          'Evidence suggests that EI is not genetically influenced.',
+          'EI can be measured easily.',
+          'Evidence suggests that a person\'s performance on the job is independent of her EI.',
+          'EI is related to a person\'s ability to detect emotions in others.',
+        ],
+        correctIndex: 4,
+        explanation:
+          'EI involves perceiving, understanding, and managing emotions — including detecting emotions in others. It is multidimensional, partly heritable, hard to measure cleanly, and linked to job performance.',
+      },
+      {
+        id: 'lem-q3',
+        prompt: 'Emotions are caused by specific events.',
+        choices: ['True', 'False'],
+        correctIndex: 0,
+        explanation:
+          'True — emotions are typically brief, intense reactions to specific events. Moods are more diffuse and less tied to a particular trigger.',
+      },
+      {
+        id: 'lem-q4',
+        prompt:
+          '________ indicates a person\'s ability to perceive emotions in oneself and others, to understand the meaning of these emotions, and regulate his/her own emotions accordingly.',
+        choices: [
+          'Confirmation bias',
+          'Cognitive dissonance',
+          'Cognitive distortion',
+          'Emotional dissonance',
+          'Emotional intelligence',
+        ],
+        correctIndex: 4,
+        explanation:
+          'Emotional intelligence (EI) = perceiving, understanding, and regulating emotions in self and others.',
+      },
+      {
+        id: 'lem-q5',
+        prompt:
+          'Which of the following terms best describes feelings that tend to be less intense than emotions?',
+        choices: ['Cognition', 'Thoughts', 'Reactions', 'Moods', 'Affect'],
+        correctIndex: 3,
+        explanation:
+          'Moods are feelings that tend to be less intense than emotions and last longer. Affect is the broader umbrella term for both.',
+      },
+      {
+        id: 'lem-q6',
+        prompt:
+          'Which of the following is the term used for the strength with which individuals experience emotion?',
+        choices: [
+          'Positivity offset',
+          'Emotional dissonance',
+          'Affect intensity',
+          'Emotional labor',
+          'Emotional intelligence',
+        ],
+        correctIndex: 2,
+        explanation:
+          'Affect intensity = how strongly a person experiences emotions. Emotional labor is managing displayed emotions for a job role.',
+      },
+      {
+        id: 'lem-q7',
+        prompt:
+          'When his son won the regional Spelling Bee, Mario immediately felt a surge of joy, which turned into a feeling of satisfaction that lasted for several weeks. What is one of the reasons that Mario\'s feeling of satisfaction might be categorized as a mood and NOT an emotion?',
+        choices: [
+          'It is expressed on his face.',
+          'It has a lengthy duration.',
+          'It is brought about by a specific event.',
+          'It is a very strong feeling.',
+          'It is a positive feeling.',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Moods last longer than emotions. The initial joy was a brief emotion; weeks-long satisfaction fits mood duration.',
+      },
+      {
+        id: 'lem-q8',
+        prompt: 'Which of the following statements is true regarding moods?',
+        choices: [
+          'Moods are less cognitive in nature than emotions.',
+          'Moods don\'t last longer than emotions.',
+          'Moods are generally not indicated by distinct facial expressions.',
+          'Moods are more action oriented in nature, as compared to emotions.',
+          'Moods are more intense feelings than emotions.',
+        ],
+        correctIndex: 2,
+        explanation:
+          'Moods are usually not shown through distinct facial expressions, tend to last longer, and are less intense and less action-oriented than emotions.',
+      },
+      {
+        id: 'lem-q9',
+        prompt: 'What effect do stressful events typically have on mood?',
+        choices: [
+          'Positive',
+          'Negative',
+          'Long-term positive',
+          'Short-term positive but long-term negative',
+          'Short-term positive',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Stressful events typically produce negative moods.',
+      },
+      {
+        id: 'lem-q10',
+        prompt:
+          'Joanna and Rahul are working as a team on a project for the Almeida Company. Rahul\'s tardiness causes the team to miss an important deadline. Joanna yells at Rahul in anger for his mistake. Which of the following terms best describes the intense feelings that Joanna directs at Rahul?',
+        choices: [
+          'Emotional labor',
+          'Emotions',
+          'Affect',
+          'Cognition',
+          'Moods',
+        ],
+        correctIndex: 1,
+        explanation:
+          'Joanna\'s anger is an intense, event-driven reaction — an emotion, not a longer-lasting mood or the managed display of emotional labor.',
+      },
+    ],
+  },
 ]
